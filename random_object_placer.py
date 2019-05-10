@@ -1,5 +1,5 @@
 #random_object_placer.py
-#This Maya script is used to take a selected object(s), and randomly duplicate them within a specified X,Y,Z area with a specified number of duplicate objects
+#This Maya script is used to take a selected object(s), and randomly duplicate them within a specified X,Y,Z area from a specified number of duplicate objects
 #Property of Alec Cromer
 
 import maya.cmds as cmds
