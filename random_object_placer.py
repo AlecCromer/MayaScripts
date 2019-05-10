@@ -49,10 +49,10 @@ def UI(selection):
             cmds.confirmDialog( title='Randomly Duplicate Selected Objects', message='Please make sure your minimums are not greater than your maximums', button=['Ok'])
         else:
             
-            '''Array of random locations'''
+            '''Complete array of the random locations'''
             completeList=[]
         
-            '''Adds a random location if it does not already exists'''
+            '''The lower and upperbounds for the selected object'''
             lower = 0
             upper = randomAmount
             '''A loop for however many objects are selected'''
